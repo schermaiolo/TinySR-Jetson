@@ -1,0 +1,16 @@
+TinySR-Jetson - Independent, unofficial C++/CUDA/TensorRT deployment port.
+
+Original TinySR research, pretrained model architecture, and PyTorch reference:
+Linwei Dong, Qingnan Fan, Yuhang Yu, Qi Zhang, Jinwei Chen,
+Yawei Luo, and Changqing Zou.
+"TinySR: Pruning Diffusion for Real-World Image Super-Resolution."
+CVPR 2026 Findings. https://github.com/Microtreei/TinySR
+
+Original code is published under Apache License, Version 2.0.
+This repository is independently authored deployment code and is not
+endorsed by the original TinySR authors or NVIDIA.
+
+Checkpoint files and TensorRT binaries are not redistributed here.
+Verify the licensing conditions of model weights and all optional assets
+before sharing them. NVIDIA CUDA/TensorRT/OpenCV dependencies retain
+any applicable upstream licenses.

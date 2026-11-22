@@ -1,0 +1,30 @@
+# Generated builds
+/build/
+/cpp/build/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Model checkpoints, exports, compiled TensorRT plans
+/models_trt
+/models_onnx
+/checkpoint
+/dataset/
+*.engine
+*.plan
+*.onnx
+*.safetensors
+*.pt
+
+# Outputs and local benchmark runs
+/outputs/
+/logs/
+/benchmarks/raw/
+*.log
+
+# Python local state
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
